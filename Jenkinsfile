@@ -1,4 +1,4 @@
-/* Norma Ochoa */
+/* BIROUE ISAAC */
 def mvnHome
 def pom
 
@@ -15,7 +15,7 @@ pipeline {
    stages {
       stage('Get Build Files') {
          steps {
-            echo 'Getting Private Repo'
+            echo 'Getting Public Repo'
             git(
                url: 'https://github.com/biroue10/petclinic-spring.git',
                branch: 'main'
